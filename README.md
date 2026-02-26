@@ -1,4 +1,4 @@
-# Assignment 1: Lunar Lander with Deep Q-Networks
+# EE5108 Assignment: Lunar Lander with Deep Q-Networks
 
 ## Overview
 
