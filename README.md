@@ -14,7 +14,7 @@ The Lunar Lander environment simulates landing a small rocket on the moon surfac
 
 
 ## Environment Details
-In the simulation, the spacecraft has a main engine and two lateral boosters that can be used to control its descent and the orientation of the spacecraft. The spacecraft is subject to the moon's gravitational pull, and the engines have an unlimited amount of fuel. The spacecraft must navigate to the landing spot between two flags at coordinates (0,0) without crashing. Landing outside of the landing pad is possible. The lander starts at the top center of the viewport with a random initial force applied to its center of mass. T
+In the simulation, the spacecraft has a main engine and two lateral boosters that can be used to control its descent and the orientation of the spacecraft. The spacecraft is subject to the moon's gravitational pull, and the engines have an unlimited amount of fuel. The spacecraft must navigate to the landing spot between two flags at coordinates (0,0) without crashing. Landing outside of the landing pad is possible. The lander starts at the top centre of the viewport with a random initial force applied to its centre of mass.
 
 ### State Space (8 dimensions)
 - x, y coordinates of the lander
@@ -47,7 +47,7 @@ Note: https://gymnasium.farama.org/introduction/basic_usage/ is a good place to 
 1. Install gymnasium and create the LunarLander-v3 environment
 2. Implement a random policy agent as baseline
 3. Collect statistics over 100 episodes: mean reward, episode lengths, success rate
-4. Visualize and save 3-5 episodes as videos/GIFs
+4. Visualise and save 3-5 episodes as videos/GIFs
 
 **Deliverables:**
 - Code for random agent
@@ -57,7 +57,7 @@ Note: https://gymnasium.farama.org/introduction/basic_usage/ is a good place to 
 **Grading:**
 - Correct environment setup (5 pts)
 - Baseline statistics (5 pts)
-- Visualizations (5 pts)
+- Visualisations (5 pts)
 
 ### Part B: DQN Implementation (40 points)
 note: https://medium.com/@hkabhi916/mastering-deep-q-learning-with-pytorch-a-comprehensive-guide-a7e690d644fc is a good resource
@@ -90,7 +90,7 @@ note: https://medium.com/@hkabhi916/mastering-deep-q-learning-with-pytorch-a-com
    - Average Q-values
 2. Plot learning curves with moving averages
 3. Test the trained agent (no exploration) for 100 episodes
-4. Record and submit 3-5 test episodes showing learned behavior
+4. Record and submit 3-5 test episodes showing learned behaviour
 
 **Deliverables:**
 - Training plots (rewards, loss, epsilon, Q-values)
@@ -142,7 +142,7 @@ env = RecordVideo(env, 'videos/', episode_trigger=lambda x: x % 50 == 0)
 
 1. **Expect instability:** DQN training can be noisy; use moving averages to see trends
 2. **Save checkpoints:** Save models every 50-100 episodes so you can recover from training collapse
-3. **Debug with visualization:** Watch your agent to understand what it's learning
+3. **Debug with visualisation:** Watch your agent to understand what it's learning
 4. **Be patient:** It may take 300-500 episodes to see good performance
 
 ## Learning Objectives
@@ -168,7 +168,7 @@ Submit a ZIP file containing:
 1. All Python code files (`.py`)
 2. Trained model weights (`.pt` or `.pth`)
 3. Plots and figures (`.png` or `.pdf`)
-4. Videos/GIFs of agent behavior (3-5 episodes)
+4. Videos/GIFs of agent behaviour (3-5 episodes)
 5. Written report (`.pdf`)
 
 ## Grading Summary
