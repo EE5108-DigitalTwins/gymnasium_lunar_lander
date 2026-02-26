@@ -4,7 +4,7 @@
 
 In this assignment, you will implement a Deep Q-Network (DQN) agent to master the LunarLander-v3 environment. The lunar lander must learn to navigate from the top of the screen to land safely between two flags on the moon surface, using engine thrusts efficiently.
 
-**Deadline** Midnight, March 14th \
+**Deadline** Midnight, March 15th \
 **Percentage of Final Grade** 15%
 
 ![Episode 1](images/episode_1.gif)
